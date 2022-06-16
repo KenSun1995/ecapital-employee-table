@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.line {
+    width: 77%;
+    height: 1px;
+    border-top: solid rgb(207, 203, 203);
+    float: left;
+    margin: 5px 0;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.header {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.title {
+    width: 50%;
+    margin: 10px 0;
+}
+
+.title ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title ul li {
+    color: rgb(163, 159, 159);
+    float: left;
+}
+
+.list {
+    float: left;
+    width: 100%;
+}
+
+.list ul li {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.list ul li div {
+    float: left;
+    color: rgb(96, 94, 94);
+    width: 21.5%;
+}
+
+.list ul li button,
+.edit-btn,
+.delete-btn {
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.edit-btn {
+    color: orange;
+    width: 30px;
+}
+
+.edit-btn:hover {
+    color: #ff5e00;
+}
+
+.delete-btn {
+    width: 30px;
+    color: red;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    color: rgb(57, 2, 2);
+}
+
+.trail {
+    width: 77%;
+}
+
+.trail button {
+    margin-left: 78%;
+    width: 120px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+}
+
+.trail button:hover {
+    border: solid;
+}
+
+.edit-window {
+    width: 77%;
+}
+
+.edit-window input {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.edit-window input:not(:first-child) {
+    margin-left: 50px;
+}
+
+.edit-window button {
+    margin-left: 30px;
+}
